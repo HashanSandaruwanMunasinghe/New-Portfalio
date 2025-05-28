@@ -51,7 +51,7 @@ const HeroSection = () => {
             <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-gradient-to-br from-purple-500 to-blue-600 animate-pulse-slow flex items-center justify-center">
               <div className="w-60 h-60 md:w-76 md:h-76 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
                 <img 
-                  src="https://images.pexels.com/photos/18844386/pexels-photo-18844386.jpeg" 
+                  src="/profile.jpg" 
                   alt="Hashan Munasinghe"
                   className="w-full h-full object-cover"
                 />
