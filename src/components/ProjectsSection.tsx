@@ -45,7 +45,7 @@ const ProjectsSection = () => {
       description: "A comprehensive database management system for a courier service using MySQL. Designed and implemented a relational database with tables, relationships, and queries for efficient data management.",
       skills: ["MySQL", "Database Design", "SQL", "Normalization"],
       repo: "https://github.com/HashanSandaruwanMunasinghe/Courier-Management-System.git",
-      image: "https://images.pexels.com/photos/7363143/pexels-photo-7363143.jpeg"
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUtIlAaxneUQsmb1JirPR0zU4Kmf6hGS91qg&s"
     },
     {
       id: 4,
