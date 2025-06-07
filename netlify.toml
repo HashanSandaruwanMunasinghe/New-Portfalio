@@ -1,0 +1,26 @@
+[build]
+  publish = "dist"
+  command = "npm run build"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[[forms]]
+  name = "contact"
+  
+[form.settings]
+  autoresponse = true
+  
+[form.autoresponse]
+  subject = "Thank you for contacting Hashan Munasinghe"
+  body = """
+Thank you for reaching out! I have received your message and will get back to you as soon as possible.
+
+Best regards,
+Hashan Munasinghe
+Electrical and Information Engineering Undergraduate
+University of Ruhuna
+
+Email: munasinghefirst@gmail.com
+Phone: (+94) 76 638 9033
+"""
