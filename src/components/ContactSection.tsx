@@ -22,8 +22,8 @@ const ContactSection = () => {
     setIsSubmitting(true);
     
     try {
-      // Check if we're in production (deployed to Netlify)
-      const isProduction = window.location.hostname !== 'localhost' && window.location.hostname !== '127.0.0.1';
+      // Use Vite's built-in environment variable to detect production
+      const isProduction = import.meta.env.PROD;
       
       if (isProduction) {
         // Production: Use Netlify Forms
